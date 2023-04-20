@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;400&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    padding: 0;
+    font-size: 16px;
+}
+
+html{
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+/* header */
+
+.logo {
+    width: 15%;
+    margin-left: 5rem;
+    position: relative;
+    top: 80px;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+#nav-li {
+    display: flex;
+    list-style: none;
+    padding: 2rem 5rem 3rem;
+    align-items: center;
+   cursor: pointer;
+    
+
+}
+
+#nav-li li {
+   padding: 1rem;
+   font-weight: 500;
+   
+}
+
+.icon {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    bottom:  6rem;
+    right: 4rem;
+    margin: 0 4rem;
+}
+
+.icon button{
+    padding: 1rem 2rem;
+    border-radius: 3.125rem;
+    color: white;
+    background-color:  #8B48BF;
+    box-shadow: 0 0.5rem 0.3rem rgb(0 0 0 / 25%);
+    border:#8B48BF;
+    cursor: pointer;
+
+
+}
+.icon img {
+    visibility: hidden;
+    height: 1.25rem;
+    cursor: pointer;
+}
+
+
+/* main 
+
+seccion 1 del main */
+
+.container {
+    display: flex;
+    padding: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    font-weight: bold;
+    font-size: 3.75rem;
+    padding-bottom: 2rem;
+
+
+}
+
+.container p {
+
+    padding: 3rem 5rem 3rem 0;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.container button{
+    padding: 1rem 2rem;
+    border-radius: 3.125rem;
+    color: white;
+    background-color:  #8B48BF;
+    box-shadow: 0 0.5rem 0.3rem rgb(0 0 0 / 25%);
+    border:#8B48BF
+}
+
+/* seccion 2 del main */
+
+.container-inf {
+   display: flex;
+   padding: 5rem;
+}
+.container-inf h2 {
+    padding-bottom: 2rem;
+    margin-right: 8rem;
+    font-size: 35px;
+}
+.container-inf p {
+    padding-right: 10rem;
+
+}
+
+.number button{
+    display: flex;
+    background-color: #8B48BF;
+    border-radius: 50px;
+    padding: 5px 15px;
+    color: white;
+    border: #8B48BF;
+}
+
+.number h6 {
+    position: relative;
+    left: 5rem;
+    bottom: 2rem;
+    font-size: 18px;
+
+}
+.number p {
+    position: relative;
+    left: 5rem;
+    bottom: 1.5rem;
+    padding-top: 1rem;
+    text-align: justify;
+    margin-right: 3rem;
+    font-weight: 100;
+}
+
+/* seccion 3 del main */
+
+.title-testimonios {
+    text-align: center;
+    padding-bottom: 3rem;
+    font-size: 30px;
+}
+.testimonios {
+    display: flex;
+    background-color: #FAFAFA;
+    margin: 3rem ;
+}
+.testimonios-leyendas{
+    padding: 0 3rem;
+}
+
+.testimonios-leyendas p {
+    text-align: center;
+}
+.testimonios-leyendas h6 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.testimonios-leyendas img{
+    margin: 0 2rem;
+    position: relative;
+    bottom: 3rem;
+    left: 8rem;
+    width: 7rem;
+
+}
+.button {
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    color: white;
+    background-color:  #8B48BF;
+    box-shadow: 0 0.5rem 0.3rem rgb(0 0 0 / 25%);
+    border:#8B48BF;
+    position: relative;
+    left: 45%;
+    margin-bottom: 8rem;
+}
+
+
+/* Footer */
+
+/* seccion 1 del footer */
+
+.footer-one{
+    width: 100vw;
+    background-color: #8B48BF;
+    display: flex;
+    justify-content:space-between;
+    padding: 5rem;
+
+}
+.footer-one h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.footer-one button{
+    padding: 1rem  2rem;
+    border-radius: 50px;
+    color:#8B48BF;
+    background-color: #FFFFFF;
+    box-shadow: 0 0.5rem 0.3rem rgb(0 0 0 / 25%);
+    border:#8B48BF;
+
+}
+
+/* seccion 2 del footer */
+
+.footer-two {
+    width: auto;
+    background-color: #1E1E26;
+    display: flex;
+}
+.icons-redes {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 5rem ;
+    width: 20%;
+}
+
+
+.list{
+    display: flex;
+    color: white;
+    padding: 2rem;
+}
+
+.button-hover:hover {
+    background-color: #4982dd;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.redes {
+    padding-top: 4rem;
+    cursor: pointer;
+}
+
+.list ul{
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    cursor: pointer;
+
+
+}
+.list ul li {
+    padding: 1rem 5.5rem;
+}
+
+.form {
+    padding: 3rem 2rem;
+    margin-left: 9rem;
+}
+
+.form input {
+    padding: 1rem;
+    border-radius: 50px;
+}
+
+.button-hover {
+    padding: 1rem 1.5rem;
+    border-radius: 50px;
+    color: white;
+    background-color:#8B48BF;
+    box-shadow: 0 0.5rem 0.3rem rgb(0 0 0 / 25%);
+    border:#8B48BF;
+}
+
+
+/* Medidas Mobile  */
+
+@media (max-width:480px){
+    #nav-li {
+        visibility: hidden;
+        padding:  0;
+    }
+    .icon button {
+        visibility: hidden;
+        padding: 0;
+
+    }
+    .icon img {
+        visibility: visible;
+        position: relative;
+        left: 5rem;
+        top: 2rem;
+
+    }
+    .logo {
+        width: 40%;
+        margin: 2rem;
+        bottom: 2rem;
+    }
+
+
+    .container {
+        flex-direction: column-reverse;
+        padding: 30px;
+
+    }
+    .container-img img{
+        width: 350px;
+        margin-bottom: 50px;
+        justify-content: center;
+    }
+    .container p {
+        margin-right: 0;
+        padding: 20px;
+        text-align: center;
+    }
+    h1 {
+        font-size: 40px;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+    .container button{
+       margin: 20px 130px;
+    }
+
+    .container-inf {
+        flex-direction: column;
+        padding: 2rem;
+     }
+     .container-inf h2 {
+        padding: 0;
+        margin: 1rem;
+        text-align: center;
+    }
+    .container-inf p {
+        padding: 1.8rem;
+        margin-bottom: 5rem;
+        text-align: center;
+    }
+
+    .number h6 {
+        background-color: #8B48BF4D;
+        padding: 8px 20px  ;
+        position: relative;
+        left: 40px;
+        bottom: 39px;
+    }
+    .number button{
+        background-color: #8B48BF;
+        border-radius: 50px;
+        padding: 10px 18px;
+    }
+    .number p {
+        position: relative;
+        left: 1rem;
+        padding: 20px;
+        margin: 0;
+        text-align: left;
+
+    }
+   
+    .testimonios {
+        flex-direction: column;
+        margin: 1rem;
+        padding: 0;
+
+
+    }
+    .title-testimonios {
+        text-align: center;
+        padding: 0;
+        font-size: 40px;
+    }
+
+    .testimonios-leyendas-hidden {
+        visibility: hidden;
+        padding: 0;
+    }
+    .testimonios-leyendas{
+        padding: 0;
+        position: relative;
+        bottom: 30px;
+    }
+    .testimonios-leyendas img{
+        position: relative;
+        bottom: 3rem;
+        left: 8rem;
+    }
+    .button {
+
+        position: relative;
+        left: 35%;
+        bottom: 50px;
+        margin-bottom: 8rem;
+    }
+
+    .footer-one{
+        flex-direction: column;
+        
+    }
+    .footer-one h2 {
+        padding-bottom: 2rem;
+        
+    }
+    .footer-one button {
+        margin: 0 70px;
+        
+    }
+    
+
+    .footer-two {
+        flex-direction: column-reverse;
+    }
+    .icons-redes{
+
+        width: 250px;
+        flex-direction: column-reverse;
+        padding: 2rem;
+        margin: 0 8rem;
+    }
+    .redes{
+        padding-bottom: 3rem;
+    }
+    .icons-redes img{
+        padding-bottom: 3rem;
+    }
+    
+    .list ul li {
+        padding-right: 0rem;
+    }
+    .form {
+        padding: 3rem 0 0 3rem;
+        margin-left: 3rem;
+    }
+}

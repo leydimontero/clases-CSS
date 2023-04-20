@@ -1,0 +1,21 @@
+nav {
+    background-color: blueviolet;
+}
+
+img {
+    width: 40%;
+    height: 80%;
+    
+}
+.avatar {
+    background-color: rgb(179, 125, 229);
+}
+
+.portafolio {
+    text-align: center;
+    margin-top: 5%;
+}
+.imagenes {
+    display: grid;
+   
+}
